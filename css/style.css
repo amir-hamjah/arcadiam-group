@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* common css ends here */
+
+@font-face {
+    src: url(../fonts/Orbitron-SemiBold.ttf);
+    font-family: orbitron;
+}
+
+@font-face {
+    src: url(../fonts/Pacifico-Regular.ttf);
+    font-family: pacifico;
+}
+
+
+/* fontface ends here */
+
+
+/* HOMEPAGE START HERE */
+
+.nav-menu {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 5px solid #47C46E;
+}
+
+.navbar {
+    background: rgb(212, 212, 212);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #5B90BA !important;
+}
+
+.nav-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #5B90BA !important;
+}
+
+.dropdown-menu {
+    background: #fff;
+}
+
+.navitem-seperate {
+    margin-left: 30px;
+}
+
+
+/* navbar completed */
+
+.hero {
+    width: 100%;
+    height: auto;
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    color: #fff;
+    font-family: pacifico;
+    font-weight: initial;
+    letter-spacing: 5px;
+    margin-top: 4%;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.mid {
+    margin-left: 60px;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.hero-btn {
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 18%;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #47C46E;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: #3faf63;
+    transition: .3s;
+}
+
+.hero-paragraph {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 19px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/* Hero Completed */
+
+.what-we-do {
+    width: 100%;
+}
+
+.what-we-do-left {
+    width: 50%;
+    height: 250px;
+    float: left;
+    background: rgb(236, 236, 236);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+.what-we-do-left-text {
+    padding-top: 50px;
+    margin-left: -20px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.what-we-do-right {
+    padding-top: 50px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    background: #feffff;
+}
+
+.what-we-do-right h3 {
+    padding-left: 230px;
+    font-family: pacifico;
+    padding-top: 0px;
+    color: rgb(36, 36, 36);
+}
+
+.what-we-do-right ul li {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    list-style: none;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+.what-we-do-right ul li a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* what we do part complete */
+
+.landingpage-blog-head {
+    width: 100%;
+    height: auto;
+    margin-top: 280px;
+    background: rgb(70, 69, 69);
+    font-family: pacifico;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #47C46E;
+}
+
+.card {
+    height: 300px;
+    margin: 30px 15px;
+    background: #3D3F41;
+    color: #fff;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #29914a;
+    filter: grayscale(0);
+    transition: all linear.2s;
+}
+
+.card:active {
+    background: #29914a;
+    filter: grayscale(0);
+}
+
+.text-muted {
+    color: #fff !important;
+}
+
+.card-body {
+    border-top: 5px solid #3e6381;
+}
+
+.blog-button {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+}
+
+
+/* blog section finished here */
+
+.badges {
+    width: 100%;
+    height: 300px;
+    padding-bottom: 60px;
+    background: rgb(243, 247, 197);
+    border-bottom: 5px solid red;
+}
+
+.badges a img {
+    width: 250px;
+    height: 100px;
+    padding-bottom: 5px;
+    filter: grayscale(2);
+}
+
+.badges a img:hover {
+    filter: grayscale(0);
+}
+
+.badges .landingpage-blog-head {
+    margin-top: 0;
+    width: 100%;
+}
+
+
+/* badges part ends here */
+
+.footer {
+    width: 100%;
+    height: 290px;
+    background: #000;
+}
+
+.footer-logo {
+    width: 100%;
+    height: 200px;
+}
+
+.footer-logo img {
+    width: 250px;
+    height: 90px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.footer-menu {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-right: 20px;
+    margin-left: 0;
+}
+
+.footer-menu ul li {
+    list-style: none;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-btn {
+    width: 100%;
+    height: 10px;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 20px;
+    margin-left: 0;
+    font-size: 20px;
+    letter-spacing: 30px;
+}
+
+.newsletter {
+    border-left: 1px solid grey;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.newsletter h4 {
+    color: white;
+}
+
+
+/* footer ends here */
+
+
+/* HOMEPAGE ENDS HERE */
+
+
+/* About us page starts here */
+
+.about-us {
+    width: 100%;
+    height: auto;
+}
+
+.about-us-banner {
+    background: #47C46E;
+    width: 100%;
+    height: 200px;
+    font-family: pacifico;
+    font-size: 52px;
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+.about-banner {
+    width: 100%;
+    height: 500px;
+    background: url(../images/banner2.png) no-repeat center;
+    background-size: contain;
+    display: block;
+}
+
+.about-us-head h1 {
+    font-size: 35px;
+    font-family: orbitron;
+    padding-top: 30px;
+}
+
+.about-us-head p {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+}
+
+.about-badges {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.about-badges img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+
+/*awesome team css part  start here */
+
+.team {
+    width: 100%;
+    height: auto;
+}
+
+.awesome_team_tittle {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.awesome_team_tittle h1 {
+    width: 100%;
+    font-size: 30px;
+    font-family: orbitron;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1919;
+    text-align: center;
+}
+
+.awesome_team_tittle img {
+    height: 20px;
+    margin: 0% 45%;
+    margin-bottom: 60px;
+}
+
+
+/*awesome team tittle part end */
+
+.awesome_team {
+    position: relative;
+    margin: 100px 0px;
+    transition: all linear 0.4s;
+}
+
+.awesome_team:hover {
+    margin-top: 20px;
+}
+
+.awesome_images {
+    transition: all linear .4s;
+    background: #f1f1f1;
+    position: relative;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.awesome_images img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team_text {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin-top: -180px;
+    z-index: -1;
+    padding: 0 51px;
+    transition: all linear .5s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.team_text h3 {
+    color: #353535;
+    font-size: 18px;
+    font-family: Raleway-Bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.team_text h4 {
+    color: #999;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team_text p {
+    color: #777;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.awesome_images:hover .overlay {
+    opacity: 1;
+}
+
+.awesome_team:hover .awesome_images {
+    margin-top: 0;
+}
+
+.awesome_team:hover .team_text {
+    margin-top: 0;
+}
+
+
+/*awesome team final  css part end here*/
+
+
+/* about us page ends here */
+
+
+/* Contact page starts here */
+
+.contact-form {
+    margin: 40px;
+}
+
+
+/* Contact page ends here */
